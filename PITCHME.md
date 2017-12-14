@@ -15,7 +15,7 @@ A TUI (Text User Interface) renderer
 ### tilto とは
 
 - TUI を構築するための描画エンジンです
-- `render(state) -> view` の `render` 部分を行うもの
+- `render(state) -> view` の `render` 部分
 - 今回 `view` に相当するのはテキスト
 
 ---
@@ -23,19 +23,16 @@ A TUI (Text User Interface) renderer
 ### TUI とは
 
 - GUI に対しての用語
-- "一般的なテキスト端末で表示できる記号や文字だけで画面を構成する"
+- "一般的なテキスト端末で表示できる記号や文字だけで画面を構成する" (引用: Wikipedia
 - Vim とか Emacs とかそういうのだと思う
-- 詳しくは Wikipedia 様に
 
 ---
 
 ### モチベーション(前向き)
 
-こういうゲームが好き
+こういうゲームが好き。（画像は [変愚蛮怒公式サイト](http://hengband.osdn.jp/) より）
 
 ![](/hengband.png)
-
-画像は [変愚蛮怒 公式サイト](http://hengband.osdn.jp/) より引用。
 
 ---
 
@@ -50,7 +47,8 @@ A TUI (Text User Interface) renderer
 
 ### 錯乱
 
-そうだ、ターミナルで動くものを作ればいいんだ！
+ターミナルで
+動くものを作ればいいんだ！
 
 ---
 
