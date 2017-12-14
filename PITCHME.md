@@ -92,9 +92,13 @@ console.log(tilto.render(box));
 
 ---
 
-### 例えばこうなる
+### 組み合わせて作れるもの
 
+![](operate-dummy-notepad.gif)
 
+---
+
+### 作りたいと妄想しているもの
 
 
 ---
