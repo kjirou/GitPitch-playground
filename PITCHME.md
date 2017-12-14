@@ -111,9 +111,21 @@ console.log(tilto.render(box));
 
 ### 現在の進捗
 
-- まだ基礎部分もダメ
+- まだ基礎部分がダメ
   - 特に ANSI 対応
 - シュッと作れるようなショートハンドが欲しい
   - 今は状態を手動で組み立てる必要がある
+
+---
+
+### 他の方法もあるよ！
+
+- [blessed](https://github.com/chjj/blessed)
+- [ink](https://github.com/vadimdemedes/ink)
+- この辺の知見に興味があったら後で聞いていただければ
+
+---
+
+# 以上！
 
 ---
