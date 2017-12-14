@@ -59,10 +59,14 @@ A TUI (Text User Interface) renderer
 ```js
 const tilto = require('tilto');
 
+// 枠を作る
 let box = tilto.createBox({width: 20, height: 5});
+// 枠線をつける
 box = tilto.setBorderType(box, 'default');
+// コンテンツを定義する
 box.content = 'The quick brown fox jumps over the lazy dog.';
 
+// render でテキスト化
 console.log(tilto.render(box));
 // -> +------------------+
 //    |The quick brown fo|
