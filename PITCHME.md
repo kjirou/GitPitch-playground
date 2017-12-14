@@ -24,7 +24,6 @@ A TUI (Text User Interface) renderer
 ### TUI とは
 
 - GUI に対しての用語
-- "一般的なテキスト端末で表示できる記号や文字だけで画面を構成する" (引用: Wikipedia
 - Vim とか Emacs とかそういうのだと思う
 
 ---
@@ -77,14 +76,14 @@ console.log(tilto.render(box));
 
 ---
 
-### console.log だと下に流れるよね？
+### これ下に流れないの？
 
-- はい
+- はい。上のサンプルだと普通に流れる
 - [log-update](https://github.com/sindresorhus/log-update) の併用が前提
 
 ---
 
-### log-update ？
+### log-update とは
 
 - `console.log` の代わりに `logUpdate` を使うとその場で描画するようになる
 - sindresorhus 御大作
@@ -98,7 +97,23 @@ console.log(tilto.render(box));
 
 ---
 
-### 作りたいと妄想しているもの
+### 妄想しているもの(1)
 
+![](ss-dummy-slack-client.png)
+
+---
+
+### 妄想しているもの(2)
+
+![](wizardry1-1.jpg)
+
+---
+
+### 現在の進捗
+
+- まだ基礎部分もダメ
+  - 特に ANSI 対応
+- シュッと作れるようなショートハンドが欲しい
+  - 今は状態を手動で組み立てる必要がある
 
 ---
