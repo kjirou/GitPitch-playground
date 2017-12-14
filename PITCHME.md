@@ -77,12 +77,24 @@ console.log(tilto.render(box));
 
 ---
 
-## よんまいめ(h2)
+### console.log だと下に流れるよね？
+
+- はい
+- [log-update](https://github.com/sindresorhus/log-update) の併用が前提
 
 ---
 
-# ごまいめ(h1)
+### log-update ？
+
+- `console.log` の代わりに `logUpdate` を使うとその場で描画するようになる
+- sindresorhus 御大作
+- README を見ればすぐわかる
 
 ---
 
-### いちまい足りない・・・
+### 例えばこうなる
+
+
+
+
+---
