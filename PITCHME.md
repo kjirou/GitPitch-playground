@@ -17,6 +17,7 @@ A TUI (Text User Interface) renderer
 - TUI を構築するための描画エンジンです
 - `render(state) -> view` の `render` 部分
 - 今回 `view` に相当するのはテキスト
+- star 数は 0 (三時間前に publish)
 
 ---
 
