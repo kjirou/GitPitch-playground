@@ -14,8 +14,8 @@ A TUI (Text User Interface) renderer
 
 ### tilto とは
 
-- TUI を構築するための描画エンジンです
-- `render(state) -> view` の `render` 部分
+- TUI を構築するための描画エンジン
+- `render(state) -> view` の `render`
 - 今回 `view` に相当するのはテキスト
 - star 数は 0 (三時間前に publish)
 
@@ -46,16 +46,30 @@ A TUI (Text User Interface) renderer
 
 ---
 
-### 錯乱
+## 錯乱
 
 ターミナルで
+
 動くものを作ればいいんだ！
 
 ---
 
-### さんまいめ
+### どんな感じ
 
-![](/hagure-metal.png)
+```js
+const tilto = require('tilto');
+
+let box = tilto.createBox({width: 20, height: 5});
+box = tilto.setBorderType(box, 'default');
+box.content = 'The quick brown fox jumps over the lazy dog.';
+
+console.log(tilto.render(box));
+// -> +------------------+
+//    |The quick brown fo|
+//    |x jumps over the l|
+//    |azy dog.          |
+//    +------------------+
+```
 
 ---
 
