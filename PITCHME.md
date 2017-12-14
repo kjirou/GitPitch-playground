@@ -122,7 +122,7 @@ console.log(tilto.render(box));
 
 - [blessed](https://github.com/chjj/blessed)
 - [ink](https://github.com/vadimdemedes/ink)
-- この辺の知見に興味があったら後で聞いていただければ
+- 興味があったら後で聞いていただければ
 
 ---
 
